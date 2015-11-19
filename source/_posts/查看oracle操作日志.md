@@ -1,7 +1,7 @@
 ---
 title: 查看oracle操作日志
 date: 2018-09-04 15:35:58
-tags: [查看oracle操作日志]
+tags: [oracle]
 ---
 [文章来源:查看oracle操作日志](http://blog.csdn.net/u011229848/article/details/82384530)
 

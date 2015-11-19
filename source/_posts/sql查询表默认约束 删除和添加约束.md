@@ -1,7 +1,7 @@
 ---
 title: sql查询表默认约束 删除和添加约束
 date: 2018-05-15 19:33:25
-tags: [sql约束]
+tags: [sql]
 ---
 [文章来源:sql查询表默认约束 删除和添加约束](http://blog.csdn.net/u011229848/article/details/80328066)
 
