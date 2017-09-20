@@ -33,7 +33,7 @@ tags: [java]
 
 将上面的第一个代码修改为第二个代码，第一个类是负责抓取jdbc.properties中的属性并且填充到dataSource当中来，这样，我们就可以将所有的注意力都集中在jdbc.properties上了。
 下面的问题是，如何将jdbc.properties变成一个看不明白的字符呢？我们只需要扩展PropertyPlaceholderConfigurer父类PropertyResourceConfigurer的解密方法convertProperty就可以了:
-
+<!--more-->
 package com.cardDemo.commonUtil;  
   
 import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;  

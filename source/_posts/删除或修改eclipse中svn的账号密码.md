@@ -14,7 +14,7 @@ tags: [java,svn,eclipse]
 
 ![](删除或修改eclipse中svn的账号密码/1.png)
 打开电脑计算机，系统安装盘，一般是C盘，找到用户，点击打开
-
+<!--more-->
 ![](删除或修改eclipse中svn的账号密码/2.png)
 打开之后，在搜索栏里面输入auth,就是在用户里面搜索这个文件夹
 ![](删除或修改eclipse中svn的账号密码/3.png)

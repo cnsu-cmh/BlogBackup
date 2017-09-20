@@ -21,7 +21,7 @@ tags: [java,eclipse]
 </web-app>
 ```
 ## 2.修改项目的设置，在Navigator下打开项目.settings目录下的org.eclipse.jdt.core.prefs
-
+<!--more-->
 把1.5改成1.8
 ```
 eclipse.preferences.version=1

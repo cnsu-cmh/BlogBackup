@@ -15,7 +15,7 @@ tags: [java,tomcat]
 -Xms256m -Xmx1024m -XX:MaxPermSize=256m 。
 
 修改2：
-
+<!--more-->
 在Eclipse菜单栏中Window ——》Preferences ——》Server ———》 Runtime Environment；
 
 选择您用的Tomcat 然后点击Edit...弹出Edit Server Runtime Ecvironment 下面JRE选项后面的Installed JREs...

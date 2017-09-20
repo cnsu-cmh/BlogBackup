@@ -23,7 +23,7 @@ Alias（别名）
 keystore的存储位置
 
 在没有制定生成位置的情况下，keystore会存在与用户的系统默认目录，
-
+<!--more-->
 如：对于window 或xp系统，会生成在系统的***C:\Documents and Settings\UserName\***
 
 文件名为“XXXkey.store”

@@ -56,7 +56,7 @@ public class Student {
 
 ```
 因为 spring 提倡的就是面向接口编程，所以在我们写 dao 层和 service 层具体实现之前，我们先定义接口，让我们的具体实现实现接口。
-
+<!--more-->
 ```java
 package org.spring.demo.service;
 

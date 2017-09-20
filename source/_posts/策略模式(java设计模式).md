@@ -27,6 +27,7 @@ public interface FlyBehavior {
 }
 
 ```
+<!--more-->
 实现飞的行为实例： 会飞与不会飞
 
 ```java
