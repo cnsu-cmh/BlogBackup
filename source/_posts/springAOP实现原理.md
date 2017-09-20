@@ -67,7 +67,7 @@ AOP代理（AOP Proxy）: AOP框架创建的对象，包含通知。 在Spring�
 
 下面这种类图列出了Spring中主要的AOP组件
 
-![](spring%20AOP%20实现原理/20130924152523859.png)
+![](springAOP实现原理/20130924152523859.png)
 
 ## []()如何使用Spring AOP
 

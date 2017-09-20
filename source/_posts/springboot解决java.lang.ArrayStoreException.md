@@ -1,5 +1,5 @@
 ---
-title: springboot 解决java.lang.ArrayStoreException
+title: springboot解决java.lang.ArrayStoreException
 date: 2018-08-10 17:48:10
 tags: [java,springboot]
 ---
@@ -8,14 +8,14 @@ tags: [java,springboot]
 
 版权声明：本文为博主原创文章，未经博主允许不得转载。 https://blog.csdn.net/u011229848/article/details/81567223
 
-![](springboot%20解决java.lang.ArrayStoreException/20180810172421171.png)idea工具使用 Java Exception Breakpoint 添加异常断点，在IDE里，新建一个断点，类型是
+![](springboot解决java.lang.ArrayStoreException/20180810172421171.png)idea工具使用 Java Exception Breakpoint 添加异常断点，在IDE里，新建一个断点，类型是
 
 
 Java Exception Breakpoint
 
-![](springboot%20解决java.lang.ArrayStoreException/20180810173240251.png)
+![](springboot解决java.lang.ArrayStoreException/20180810173240251.png)
 
-![](springboot%20解决java.lang.ArrayStoreException/20180810173335436.png )
+![](springboot解决java.lang.ArrayStoreException/20180810173335436.png )
 
 **当断点起效时，查看
 
@@ -41,7 +41,7 @@ MapperAutoConfiguration
 @Aspect
 信息时出错的。**
 
-![](springboot%20解决java.lang.ArrayStoreException/20180810173720128.png)
+![](springboot解决java.lang.ArrayStoreException/20180810173720128.png)
 
 **
 MapperAutoConfiguration
@@ -65,8 +65,8 @@ java.lang.ArrayStoreException。
 
 **一看这恍惚明白了什么**，**java.lang.ClassNotFoundException: org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration**
 
-![](springboot%20解决java.lang.ArrayStoreException/20180810174339551.png)
+![](springboot解决java.lang.ArrayStoreException/20180810174339551.png)
 
 查看之后发现pom里面没写版本号...
 
-![](springboot%20解决java.lang.ArrayStoreException/20180810175353901.png)
+![](springboot解决java.lang.ArrayStoreException/20180810175353901.png)
