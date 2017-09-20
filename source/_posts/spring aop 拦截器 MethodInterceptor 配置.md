@@ -23,6 +23,7 @@ tags: [java,spring]
 	</aop:config>
 
 ```
+<!--more-->
 这里需要注意的是，上面的配置文件是对service进行拦截，很多人配置文件拦截请求返回异常，只是对controller方法拦截，这里面我单独用一个aop:config
 
 ```xml

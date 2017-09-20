@@ -111,7 +111,11 @@ public class ExportUtil
         return cellStyle;  
     }  
 }  
+```
+<!--more-->
+
 service类  
+```java
 public interface ITestExportExcelService  
 {  
     public void exportExcel(String hql,String [] titles,ServletOutputStream outputStream);  
@@ -187,7 +191,10 @@ public class TestExportExcelServiceImpl implements ITestExportExcelService
     }  
   
 }  
+```
+
 dao类  
+```java
 public interface ITestExportExcelDao  
 {  
     public List<Goods> exportExcel(String hql);  
@@ -210,7 +217,9 @@ public class TestExportExcelDaoImpl implements ITestExportExcelDao
     }  
   
 }  
+```
 控制层Controller  
+```java
 @Controller  
 @RequestMapping("/testexportexcel/*")  
 public class TestExportExcelController  

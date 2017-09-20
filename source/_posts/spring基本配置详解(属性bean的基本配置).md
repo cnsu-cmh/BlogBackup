@@ -29,7 +29,7 @@ tags: [java,spring]
 		<property name="username" value="Tom"></property>
 	</bean>
 ```
-
+<!--more-->
 (2) 构造方法注入
 ```xml
     <!-- 通过构造器注入属性值 -->

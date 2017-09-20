@@ -10,7 +10,7 @@ tags: [java,springboot]
 
 ![](springboot解决java.lang.ArrayStoreException/20180810172421171.png)idea工具使用 Java Exception Breakpoint 添加异常断点，在IDE里，新建一个断点，类型是
 
-
+<!--more-->
 Java Exception Breakpoint
 
 ![](springboot解决java.lang.ArrayStoreException/20180810173240251.png)

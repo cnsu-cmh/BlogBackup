@@ -23,7 +23,7 @@ npm install thinkjs@2 -g --verbose
 安装 ThinkJS 3 命令
 npm install -g think-cli
 
- 
+ <!--more-->
 
 安装完成后，系统中会有 thinkjs 命令（可以通过 thinkjs -v 查看 think-cli 的版本号，此版本号非 thinkjs 的版本号）。 
 注：如果是从 2.x 升级，需要将之前的命令删除，然后重新安装。

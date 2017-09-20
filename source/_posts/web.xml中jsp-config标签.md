@@ -7,7 +7,7 @@ tags: [java]
 
 
 **WEB-INF/web,xml中<jsp-config>**
-
+<!--more-->
 <br/><jsp-config> 包括<taglib> 和<jsp-property-group> 两个子元素。
 <br/>其中<taglib>元素在JSP 1.2时就已经存在；而<jsp-property-group>是JSP 2.0 新增的元素。
 <br/><jsp-property-group>元素主要有八个子元素，它们分别为：

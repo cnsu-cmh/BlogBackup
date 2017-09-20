@@ -9,7 +9,7 @@ tags: [java,spring]
 说到java的mvc框架，struts2和springmvc想必大家都知道，struts2的设计基本上完全脱离了Servlet容器，而springmvc是依托着Servlet容器元素来设计的，同时springmvc基于Spring框架，Spring框架想必搞java的同学都很熟悉。
 
 ![](http://images.cnitblog.com/i/411512/201406/252357308306593.png)
-
+<!--more-->
 一进Spring的[官网](http://spring.io/)就发现了这样一排醒目的文字， spring可以让我们构造简单的、便携的、又快又易于扩展的基于jvm的系统和应用程序。
 
 没错，基于Spring的MVC框架SpringMVC同样也可以构造具有这些特性的系统。

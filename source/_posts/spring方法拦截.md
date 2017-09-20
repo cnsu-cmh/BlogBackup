@@ -31,7 +31,7 @@ tags: [java,spring]
 为了便于理清关系，先放上一张相关的类图：
 
 ![](spring方法拦截/041925307019848.png)
-
+<!--more-->
 首先定义个**接口**
 ```java
 public interface IService {

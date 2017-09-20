@@ -13,7 +13,7 @@ DataSource、TransactionManager这两部分只是会根据数据访问方式有�
 具体如下图：
 
 ![](spring事物的五种配置方式/Spring事务配置_thumb.jpg)
-
+<!--more-->
 根据代理机制的不同，总结了五种Spring事务的配置方式，配置文件如下：
 
 第一种方式：每个Bean都有一个代理

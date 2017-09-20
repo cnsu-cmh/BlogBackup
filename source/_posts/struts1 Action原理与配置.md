@@ -42,7 +42,7 @@ Servlet，在启动时总控制器会读取配置文件(struts-config.xml)的配
 
 Action, ActionForm, ActionForward ，这三个对象构成了Struts 的核心。
 Struts 最核心的控制器是ActionServlet ，该Servlet 拦截用户请求，井将用户请求转入到Struts 体系内。
-
+<!--more-->
 一、配置ActionServlet
 ActionServlet 是一个标准的Servlet ，在web.xml 文件中配置，该Servlet 用于拦所有的HTTP 请求。
 在web.xml 文件中配置ActionServlet 应增加如下片段:
