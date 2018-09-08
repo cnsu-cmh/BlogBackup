@@ -12,7 +12,7 @@ tags: [node]
 
 npm ERR! Unexpected end of JSON input while parsing near '...,"dist":{"shasum":"63'
 
-![image](npm_errer/20180807224636311.png)
+![image](npm_error/20180807224636311.png)
 
 执行
 ```
