@@ -12,7 +12,7 @@ tags: [ext]
 <br/>down：选择与选择符匹配的元素的子元素
 <br/>first：选择元素第一个子元素
 <br/>findParent：查找与简单选择符匹配的元素的父元素
-<br/>findParentNode、up：查找与简单选择符匹配的元素的父元素
+<br/>findParentNode、up：查找与简单选择符匹配的元素的父元素<!--more-->
 <br/>is：判断元素是否匹配选择符
 <br/>last：选择元素的最后一个子元素
 <br/>next：选择元素同层的下一个元素

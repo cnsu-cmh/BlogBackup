@@ -10,7 +10,7 @@ tags: [birt]
 jrun.web.xml<br/>
 server-config.wsdd<br/>
 viewer.properties<br/>
-2、将WebViewerExample\WEB-INF\tlds下的birt.tld文件拷贝到工程的\WEB-INF\tlds下。<br/>
+2、将WebViewerExample\WEB-INF\tlds下的birt.tld文件拷贝到工程的\WEB-INF\tlds下。<br/><!--more-->
 3、在工程的WEB-INF下建立report-engine的文件夹，在report-engine下新建如下四个文件夹<br/>
 documents
 images

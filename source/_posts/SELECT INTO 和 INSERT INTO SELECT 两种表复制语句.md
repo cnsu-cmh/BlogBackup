@@ -15,6 +15,7 @@ Insert是T-sql中常用语句，Insert INTO table(field1,field2,...) values(valu
 语句形式为：Insert into Table2(field1,field2,...) select value1,value2,... from Table1
 
 要求目标表Table2必须存在，由于目标表Table2已经存在，所以我们除了插入源表Table1的字段外，还可以插入常量。示例如下：
+<!--more-->
 ```sql
 -1.创建测试表
     create TABLE Table1

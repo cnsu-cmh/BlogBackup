@@ -12,9 +12,8 @@ Ext.extend
 typeOf
 isEmpty、isIterable、isFunction、isArray...
 Iterate
-
 Ext.apply & Ext.applyIf
-
+<!--more-->
 ```javascript
     //Ext.apply就是为对象扩展属性或方法的
 	var src = {name:'张三',age:20};	//源对象
@@ -26,6 +25,7 @@ Ext.apply & Ext.applyIf
 		console.info(attr + " : " + src[attr]);
 	}
 ```
+<!--more-->
 上面代码Ext.apply（src,config）是将配置对象的属性赋给源对象，也就是src已经有的属性我给你赋值，没有的我给你扩展，则apply之后src ={name：'李四'，age：20，sex:'男'}
 
 Ext.applyIf(src,config)是说如果源对象已经有配置对象的属性，我就不管，如果没有我就扩展，也就是代码注释中说已经有的属性我不做复制，没有的就复制 applyIf之后src={name='张三',age='20',sex='男'}

@@ -10,7 +10,7 @@ JNDI配置三部曲：
 
 1.在创建报表创建数据源时，配置JNDI URL
 ![image](birt使用JNDI配置数据源/20170902001.png)
-
+<!--more-->
 2.Tomcat下\conf\context.xml中配置
 
 ```xml

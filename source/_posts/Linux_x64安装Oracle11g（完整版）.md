@@ -21,7 +21,7 @@ oracle hard nproc 16384
 oracle soft nofile 1024
 
 oracle hard nofile 65536
-
+<!--more-->
 **编辑完成后按Esc键，输入“:wq”存盘退出**
 
 **2）修改/etc/pam.d/login 文件，输入命令：vi /etc/pam.d/login，按i键进入编辑模式，将下列内容加入该文件。**

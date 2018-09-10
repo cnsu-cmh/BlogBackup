@@ -11,12 +11,10 @@ tags: [node]
     'use strict; 
     console.log('Hello, world.');
 ```
-
-第一行总是写上
-
+第一行总是写上<br/>
 'use strict';
 是因为我们总是以严格模式运行JavaScript代码，避免各种潜在陷阱。
-
+<!--more-->
 然后，选择一个目录，例如
 
 E:\NodeWorkspace

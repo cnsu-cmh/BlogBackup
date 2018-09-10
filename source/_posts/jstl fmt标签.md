@@ -23,7 +23,7 @@ tags: [jstl]
     test value:<fmt:message key="test" />
 </fmt:bundle>
 ```
-
+<!--more-->
 其中 <fmt:bundle basename="fmt"> 指定了资源文件的位置，例如： fmt 表示类根路径下的 fmt.properties 文件，my.fmt 表示 包my下的ftm.properties文件；
 
 <fmt:message key="test" />表示读取 key为test的值，并输出；

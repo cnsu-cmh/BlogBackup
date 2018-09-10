@@ -7,13 +7,10 @@ tags: [ext]
 
 
 <br/>Ext.window.Window。对于组件，也就是Ext最吸引开发者的地方，那么我们要真正的使用Ext的组件，首先必须学会阅读API文档。
-<br/>
 <br/>xtype：组件的别名 Hierarchy 层次结构 Inherited mixins 混入的类 Requires 该组件需要使用的类
-<br/>
 <br/>configs：组件的配置信息 properties：组件的属性methods：组件的方法events：组件的事件
-<br/>
 <br/>window组件常用属性和方法讲解:
-<br/>configs:
+<br/>configs:<!--more-->
 <br/>constrain:布尔值，true为限制窗口只能在其容器内移动，默认值为false，允许窗口在任何位置移动。(另：constrianHeader属性)
 <br/>modal:布尔值，true为设置模态窗口。默认为false
 <br/>plain：布尔值，true为窗口设置透明背景。false则为正常背景，默认为false
@@ -143,14 +140,9 @@ tags: [ext]
 </html>
 ```
 <br/>注意：
-<br/>
 <br/>（1）在实例1中 要注意的是重复创建，每点一次按钮就创建一个window 第一种方式就是每次点击按钮的时候判断是否存在窗口，存在我就不创建；第二种方式是先把window创建出来，之后点击按钮把时调用window的show()方法显示，但是要注意关闭时默认方式销毁，我们要将其配置成hide,否则下次调用show方法时候已经销毁找不到window而报错；对于第二种方法，窗口过多的时候每次关闭只是hide对内存来说是极度不好的，所以建议使用第一种方法。
-<br/>
 <br/>（2）对于实例2，主要是以查找组件为中心，主要是下面三个方法：ownerCt、up/down方法、Ext.getCmp方法（推荐使用）
-<br/>
 <br/>说明：
-<br/>
 <br/>（1）本文章是针对于ExtJs 4.X ，文章中出现的5版本只是我引入的文件是ExtJs.5.0,并不是文章是基于5版本，文章是4版本的
 <br/>（2）由于注释很全，所以文章内容就不写那么详细了，直接贴代码还望读者能够理解
-<br/>
 <br/>好了就到这吧，希望对于看文档的你能有所帮助！

@@ -13,7 +13,7 @@ tags: [node]
 npm ERR! Unexpected end of JSON input while parsing near '...,"dist":{"shasum":"63'
 
 ![image](npm_error/20180807224636311.png)
-
+<!--more-->
 执行
 ```
 npm cache clean --force

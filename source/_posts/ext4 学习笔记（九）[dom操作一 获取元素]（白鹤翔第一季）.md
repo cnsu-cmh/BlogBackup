@@ -9,7 +9,7 @@ tags: [ext]
 
 <BR/>首先，什么是DOM（Document Object Model）
 <BR/>W3C对DOM的定义：文档对象模型是一个平台，一个中立于语言的应用程序编程接口（API）,允许程序访问并更改文档的内容、结构和样式。
-<BR/>其实DOM是一种通用的模型、不止在我们的HTML中存在，也可以在其他文件中存在，相信你最熟悉的就是XML了吧，其实还有很多...
+<BR/><!--more-->其实DOM是一种通用的模型、不止在我们的HTML中存在，也可以在其他文件中存在，相信你最熟悉的就是XML了吧，其实还有很多...
 <BR/>DOM的发展也非常的漫长，版本延续，产生了0级DOM、1级DOM、2级DOM和最新的3级DOM，那么相对成熟的就是从2级DOM以后了。每一次版本更新都有非常实用的变化。
 <BR/>节点Node，对于nodeType、nodeName、nodeValue、getAttribute等等一些对加点的定义你一定不会陌生。
 <BR/>

@@ -8,7 +8,7 @@ tags: [ext]
 
 
 Ext对于原生的javascript对象进行了一系列的扩展，我们把他们掌握好，更能深刻的体会Ext的架构，从而对我们的web开发更好的服务，源码位置，我们可以从开发包的extjs-4.1.1\src\core\src\lang\这个位置找到这几个扩展的js源码：
-
+<!--more-->
 <br/>Ext.Object
 <br/>Ext.Number
 <br/>Ext.String

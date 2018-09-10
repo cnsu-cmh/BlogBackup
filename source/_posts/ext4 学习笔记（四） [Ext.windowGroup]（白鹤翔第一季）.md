@@ -8,7 +8,7 @@ tags: [ext]
 windowGroup对象 操作window组
 
 重点分析：该实例主要目的针对于特殊需求进行具体的实现，利用windowGroup去操作多个窗体同步执行某些任务，这有点类似于javascript里的组合模式，原理就是上级负责执行一个动作但并不真正去执行，而是分别传递给所有的下级组件去具体执行。
-
+<!--more-->
 ```html
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">

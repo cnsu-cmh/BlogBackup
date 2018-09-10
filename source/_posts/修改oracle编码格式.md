@@ -9,12 +9,12 @@ tags: [oracle]
 文章参照：[https://www.jb51.net/article/53078.htm](https://www.jb51.net/article/53078.htm)
 
 1.查看oracle当前编码格式：
-SELECT /* FROM V$NLS_PARAMETERS WHERE PARAMETER = 'NLS_CHARACTERSET' ; SELECT USERENV('language') FROM DUAL;
+SELECT * FROM V$NLS_PARAMETERS WHERE PARAMETER = 'NLS_CHARACTERSET' ; SELECT USERENV('language') FROM DUAL;
 
 NLS_CHARACTERSET AL32UTF8
 
 SIMPLIFIED CHINESE_CHINA.AL32UTF8
-
+<!--more-->
 2.以sysdba身份登录
 
 3.关闭数据库 shutdown immediate;

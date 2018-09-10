@@ -9,8 +9,7 @@ tags: [layui]
 layui数据表格中隐藏列方式，如果直接在 {field: 'id', title: 'ID', <font color="red">style:'display:none;'</font>},导致thead中th中ID仍然在，
 
 ![image](layui隐藏列/20180817180344707.png)我们要做的是表格头中ID也需要隐藏。
-
-、
+<!--more-->
 
 官网简单demo如下：
 ```javascript

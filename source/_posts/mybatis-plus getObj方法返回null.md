@@ -20,7 +20,7 @@ tags: [java,mybatis,mybatis-plus]
 ```
 
 此处返回的Object为空，认真一点会发现，返回对象应该是泛型对应的Menu对象，个人暂认为（猜测）是属性名对应不到实体，所以返回时处理了异常返回null（在下在这里偷懒了，没看源码全个人猜想，猜想错了望批评指正），我加上别名的时候发现跟我预想的一样。
-
+<!--more-->
 ```java
     QueryWrapper<Menu> wrapper = new QueryWrapper<>(); 
     Object o = getObj(wrapper.select("max(sort) as sort").isNull("parent_id"));

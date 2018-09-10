@@ -11,7 +11,7 @@ tags: [ext]
 <br/>1.基本选择器（简单选择器） id选择器 css的类选择器 标签选择器
 <br/>2属性选择器
 <br/>3.伪类选择器（也可以说是相当于JQ过滤选择器）
-<br/>
+<!--more-->
 <br/>Ext.query基本使用形式：
 <br/>Ext.query('span') 返回整个文档的span标签
 <br/>Ext.query('span' , 'root') 根据跟节点进行查询

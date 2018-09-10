@@ -17,9 +17,8 @@ insertHtml：在当前元素内插入HTML代码
 remove：移除当前元素
 replace：使用当前元素替换指定元素
 replaceWith：使用创建的元素替换当前的元素
-
 wrap：创建一个元素，并将当前元素包裹起来。
-
+<!--more-->
 ```javascript
 //操作dom系的方法：
 

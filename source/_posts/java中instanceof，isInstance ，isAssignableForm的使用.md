@@ -14,13 +14,11 @@ tags: [java]
 
 **介绍：** java的关键词之一，反射过程中常常调用。
 **语法：** A instanceof B ，翻译为 A是B的实例
-
 **用法： a** （a：实例化后的对象） **instanceof B** （B：ClassName，类名）
 **举例：**
-
 *String s ="";*
 *s instanceof Object;*
-
+<!--more-->
 这里Object一定要是一个具体的类，如果传进来的是一个泛型
 Class<T> clazz
 

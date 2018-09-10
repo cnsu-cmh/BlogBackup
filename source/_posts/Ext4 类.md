@@ -18,7 +18,7 @@ var MyWindow=Ext.extend(Object,{...});
 这个方法很容易从现有的类中继承创建新的类.相比直接继承,我们没有好用的API用于类创建的其他方面,诸如:配置、静态方法、混入（Mixins）。呆会我们再来详细的重新审视这些方面。现在，让我们来看看另一个例子：
 
 My.cool.Window = Ext.extend(Ext.Window, { ... });
-
+<!--more-->
 在这个例子中，我们创建我们的新类，继承Ext.Window，放在命名空间中。我们有两个问题要解决：
 1，在我们访问My.cool的Window属性之前,My.cool必须是一个已有的对象.
 

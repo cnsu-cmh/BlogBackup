@@ -15,8 +15,7 @@ tags: [ext]
 <br/>click：单机事件
 <br/>blur：失去焦点事件
 <br/>focus：获得焦点事件
-<br/>
-<br/>其他方法：
+<!--more--><br/>其他方法：
 <br/>center：使元素居中
 <br/>clean：清理空白的文本节点
 <br/>createShim：为元素创建一个iframe垫片保证选择或其他对象跨域时可见

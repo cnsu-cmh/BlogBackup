@@ -41,6 +41,7 @@ public class Student {
        	}
        }
 ```
+<!--more-->
 2.按照List中对象的Int类型属性进行排序
 ```java
 /**

@@ -11,7 +11,7 @@ tags: [java]
 获取该 session 内容
 
 ![](session/20151209145116771.png)
-
+<!--more-->
 移除该session中的某一条数据：
 
 ![](session/20151209145351948.png)

@@ -13,7 +13,7 @@ tags: [oracl]
 
 http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html以下两网址来源此官方下载页网。
 win 32位操作系统 下载地址：
-
+<!--more-->
 http://download.oracle.com/otn/nt/oracle11g/112010/win32_11gR2_database_1of2.zip
 http://download.oracle.com/otn/nt/oracle11g/112010/win32_11gR2_database_2of2.zip
 

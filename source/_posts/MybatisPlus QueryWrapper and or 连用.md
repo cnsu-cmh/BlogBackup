@@ -16,6 +16,7 @@ tags: [java,mybatis,mybatis-plus]
         userWrapper.and(wrapper -> wrapper.like("login_name", keys).or().like("tel", keys).or().like("email", keys));
     }
 ```
+<!--more-->
 控制台sql打印为：
 
 ```sql

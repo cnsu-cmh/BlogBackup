@@ -25,16 +25,12 @@ public class FileDemo {
  }
 ```
 **创建方法**
-
 1.boolean createNewFile() 不存在返回true 存在返回false
-
 2.boolean mkdir() 创建目录
-
 3.boolean mkdirs() 创建多级目录
+<!--more-->
 **删除方法**
-
 1.boolean delete()
-
 2.boolean deleteOnExit() 文件使用完成后删除
 
 ```java
@@ -56,7 +52,6 @@ public class FileDemo2 {
 }
 ```
 **判断方法**
-
 <br/>1.boolean canExecute()判断文件是否可执行
 <br/>2.boolean canRead()判断文件是否可读
 <br/>3.boolean canWrite() 判断文件是否可写

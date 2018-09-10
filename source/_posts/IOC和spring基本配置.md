@@ -10,7 +10,7 @@ tags: [java,spring]
 <br/><font color="red">Ioc的理解</font>
 <br/>spring的两个核心概念：<font color="red">一个是控制反转IoC，也可以叫做依赖注入DI。还有一个是面向切面编程AOP。</font>
 <br/><font color="red">控制反转：</font>当某个[Java](http://lib.csdn.net/base/javaee "Java EE知识库") 对象需要（依赖）另一个java 对象时，不是自身直接创建依赖对象，而是由实现IoC的容器（如spring框架的IoC容器）来创建，并将它注入需要这个依赖对象的java对象中。
-<br/><font color="red">spring的容器</font>
+<!--more--><br/><font color="red">spring的容器</font>
 </br/>spring管理的基本单元是Bean，在spring的应用中，所有的组件都是一个个的Bean，它可以是任何的java对象。spring负责创建这些Bean的实例。并管理生命周期。而spring框架是通过其内置的容器来完成Bean的管理的，Bean在spring的容器中生存着，使用时只需要通过它提供的一些方法从其中获取即可。spring的容器有两个接口：BeanFactory和ApplicationContext这两个接口的实例被陈为spring的上下文。
 ```java
 ApplicationContext ac = new ClassFathXmlApplicationContext("app/*.xml");
@@ -158,9 +158,7 @@ spring 不为它创建实例。
 
 父类作为模板，不需要实例化，设置abstract=”true”-->
 
-` <bean id=”parent” class=”cn.csdn.service.Parent”
-
-abstract=”true”>
+<bean id=”parent” class=”cn.csdn.service.Parent” abstract=”true”>
 
 <property name=”name” value=”z_xiaofei168”/>
 
@@ -176,9 +174,7 @@ abstract=”true”>
 
 -->
 
-` <bean id=”child” class=”cn.csdn.service.Chlid”
-
-parent=”parent”>
+<bean id=”child” class=”cn.csdn.service.Chlid”parent=”parent”>
 
 <property name=”pass” value=”123123”/>
 

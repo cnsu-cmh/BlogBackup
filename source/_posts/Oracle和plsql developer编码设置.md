@@ -14,7 +14,7 @@ select userenv('language') from dual; --查询结果：
 ```
 -- SIMPLIFIED CHINESE_CHINA.AL32UTF8 
 --修改oracle数据库字符集：（在SQL Plus中） 
-
+<!--more-->
 sql> conn / as sysdba; 
 
 sql> shutdown immediate; 

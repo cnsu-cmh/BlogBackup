@@ -11,7 +11,7 @@ tags: [node]
 第一次接触node,希望能帮助到给我一样的小白
 
 进入nodejs官网下载[https://nodejs.org/en/download/](https://nodejs.org/en/download/)，我自己下载的压缩包
-
+<!--more-->
 ![image](Node.js解压包安装与配置/20180802102513275.png)
 
 下载后解压到电脑指定盘符，解压后文件夹目录为：

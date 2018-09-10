@@ -14,7 +14,7 @@ http://www.blogjava.net/huangzhanhu/archive/2010/02/03/311777.html
 
 在使用birt报表的时候感觉页面的 BIRT Report Viewer头标题没有用，想去掉在网上一查原来有详细的参数设置，看来birt的功能还是很强大啊。现在转帖如下：
 BIRT作为一款功能强大的开源报表工具，其版本的升级更新速度也非常快，从1.0到2.0，一直到最新的2.2.1版本，无论从功能上还是性能上都得到了极大的提高和扩充。BIRT也提供了一个标准的J2EE实现组件，可以发布到支持J2EE应用的web server服务器上，可以对生成的报表进行预览等操作。在大家使用BIRT Viewer的时候，可能会对它日益纷繁的参数设置如云里雾里，在网上论坛里也有很多人碰到这样哪样的问题，同时官方的文档也不细致不全。所以我就对这些参数进行了一个简单系统的总结，希望能对大家的BIRT开发有所帮助。这些参数以2.2.1版本为准，请大家特别注意。
-<br/>1. Servlet模式说明
+<!--more--><br/>1. Servlet模式说明
 查看BIRT Viewer自带的web.xml文件，可以看到有以下几个pattern：<br/>
 frameset ---- 采用Ajax框架，可以显示工具条，导航条和TOC面板，实现复杂的操作，如分页处理，导出数据，导出报表，打印等等。该模式下会自动生成report document文件(预览report design文件)到特定的目录(用户可以用参数指定，也可以定义在web.xml里)。采用Ajax，速度较慢。
 <br/>run ---- 也采用Ajax框架，但不实现frameset的复杂功能，不会生成临时的report document文件(预览report design文件)，也不支持分页，这个主要是应用在BIRT Designer里的preview tab里，可以支持cancel操作，其它不怎么常用。采用Ajax，速度较慢。

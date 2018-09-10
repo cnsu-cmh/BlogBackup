@@ -7,7 +7,7 @@ tags: [node]
 
 
 进入下载页面：[https://www.git-scm.com/download/](https://www.git-scm.com/download/)
-
+<!--more-->
 ![](Git的最简单安装与配置/20180813110436163.png)
 
 下载成功后点击运行文件一路默认安装，只需修改一下安装目录，详细安装见[https://blog.csdn.net/u013295518/article/details/78746007](https://blog.csdn.net/u013295518/article/details/78746007)

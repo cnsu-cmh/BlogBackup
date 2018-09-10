@@ -11,7 +11,7 @@ tags: [java]
 JAVA调用支付宝的直充接口原理和银联接口一样，当商家和支付宝签好协议后就可以问支付宝的人要相关的代码了。我本地用的是支付宝UTF-8编码的代码，先把util里的东西达成一个alipay.jar文件。然后编写我们自己的调用和响应代码：
 1.封装支付宝需要的接口数据
 @Description("会员中心资金帐户支付宝充值")
-@CreatedInfo(creator = "hamano", date = "2008-09-22")
+@CreatedInfo(creator = "hamano", date = "2008-09-22")<!--more-->
 public ModelAndView fundsDepositByAliPay(HttpServletRequest request,
 HttpServletResponse response) {
 RemindPageUtil remindPageUtil = new RemindPageUtil();

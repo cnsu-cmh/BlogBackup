@@ -24,8 +24,8 @@ Ext.onReady(function(){
 	});
 	
 });
-
 ```
+<!--more-->
 **2 Border 布局**
 
 border布局：border布局也称边界布局，他将页面分隔为 west,east,south,north,center这 五个部分，我们需要在在其 items中指定使用 region参数为其子元素指定具体位置。 注意：north和 south部分只能设置高度（height），west和 east部分只能设置宽度 （width）。north south west east区域变大，center区域就变小了。 参数 split:true 可以调整除了 center四个区域的大小。 参数 collapsible:true 将激活折叠功能， title必须设置，因为折叠按钮是出现标题部分 的。 center 区域是必须使用的，而且 center 区域不允许折叠。Center区域会自动填充其 他区域的剩余空间。尤其在 Extjs4.0中，当指定布局为 border时，没有指定 center区域 时，会出现报错信息。 示例代码：

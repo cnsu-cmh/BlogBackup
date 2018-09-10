@@ -13,7 +13,7 @@ extjs4.0布局和容器（Layouts and Containers）是Ext JS中最强大的部�
 **一、容器**
 
 一个Ext JS应用程序的图形用户界面(UI)是由许多组件（查看组件指南([Components Guide](http://dev.sencha.com/deploy/ext-4.0.7-gpl/docs/index.html#/guide/components))获取更多关于组件的信息）构成的。容器是一种可以容纳一些其他组件的特殊类型组件。
-
+<!--more-->
 典型的Ext JS应用程序是由一些嵌套的组件构成不同的层来组成的。如下：
 
 ![]()

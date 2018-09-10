@@ -13,7 +13,7 @@ STUFF ( character_1 , start , length ,character_2 )作用：将character_1中自
 * length：一个整数，指定要删除的字符数。如果 length 比character_1长，则最多删除到character_1 中的最后一个字符。length 可以是 bigint 类型。
 * character_2,返回类型。如果character_1是受支持的字符数据类型，则返回字符数据。如果character_1是一个受支持的 binary 数据类型，则返回二进制数据。
 实例：select STUFF('abcdefg',2,2,'1234') --结果为'a1234defg'
-
+<!--more-->
 ###
 
 ### [SQL Server 中的]for xml path

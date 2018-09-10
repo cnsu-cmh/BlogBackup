@@ -10,7 +10,7 @@ tags: [birt]
 1、解压缩，先拷贝WebViewerExample\WEB-INF下如下文件到工程的WEB-INF目录下：<br/>
 jrun.web.xml<br/>
 server-config.wsdd<br/>
-viewer.properties<br/>
+viewer.properties<br/><!--more-->
 2、 将WebViewerExample\WEB-INF\tlds下的birt.tld文件拷贝到工程的\WEB-INF\tlds下<br/>
 3、在工程的WEB-INF下建立report-engine的文件夹，在report-engine下新建如下四个文件夹<br/>
 documents<br/>

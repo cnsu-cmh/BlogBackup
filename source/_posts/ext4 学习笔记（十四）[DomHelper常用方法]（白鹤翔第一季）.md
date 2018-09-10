@@ -8,16 +8,9 @@ tags: [ext]
 
 <br/>Ext为了更加的方便我们去操作DOM元素，特提供了DomHelper这个辅助的工具类。下面我们就一起学习下DomHelper
 <br/>首先从API来看，这个类暴露出的public方法并不是特别多。仅仅13个方法而已。如果想生成dom节点，在这里不建议使用原生的方法去生成dom节点，原因是代码量比较大的时候性能比较低、其二是自己组装HTML字符串比较麻烦。在Ext里，DomHelper对象类似一个元素生成器，用于解决此类问题。一般的javascript框架底层都会有生成html代码的类似功能函数。
-<br/>
-<br/>DomHelper常用方法：
-<br/>createHtml或markup方法
-<br/>createDom方法
-<br/>append方法
-<br/>insertHTML方法
-<br/>overwrite方法
-<br/>createTemplate方法
-<br/>applyStyles方法
-
+DomHelper常用方法：
+<br/>createHtml或markup方法<br/>createDom方法<br/>append方法<br/>insertHTML方法<br/>overwrite方法<br/>createTemplate方法<br/>applyStyles方法
+<!--more-->
 ```javascript
 Ext.onReady(function(){
 

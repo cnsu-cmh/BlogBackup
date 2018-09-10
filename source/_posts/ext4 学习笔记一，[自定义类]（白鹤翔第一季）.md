@@ -7,10 +7,9 @@ tags: [ext]
 
 
 <br/>首先说明一下：
-
 <br/>（1）本文章是针对于ExtJs 4.X ，文章中出现的5版本只是我引入的文件是ExtJs.5.0,并不是文章是基于5版本，文章是4版本的
 <br/>（2）由于注释很全，所以文章内容就不写那么详细了，直接贴代码还望读者能够理解  
- 
+ <!--more-->
 ```html
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">

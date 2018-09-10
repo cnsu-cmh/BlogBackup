@@ -12,10 +12,10 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
 
 下面分别对一些常用方法做简要介绍：
 
-1. public static boolean isEmpty(String str)
+1.public static boolean isEmpty(String str)
    <br/>判断某字符串是否为空，为空的标准是 str==null 或 str.length()==0
    <br/>下面是 StringUtils 判断是否为空的示例：
-
+<!--more-->
     <br/>StringUtils.isEmpty(null) = true
     <br/>StringUtils.isEmpty("") = true
     <br/>StringUtils.isEmpty(" ") = false //注意在 StringUtils 中空格作非空处理
@@ -25,7 +25,7 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
 
  
 
-2. public static boolean isNotEmpty(String str)
+2.public static boolean isNotEmpty(String str)
    <br/>判断某字符串是否非空，等于 !isEmpty(String str)
    <br/>下面是示例：
 
@@ -36,7 +36,7 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
       <br/>StringUtils.isNotEmpty("bob") = true
       <br/>StringUtils.isNotEmpty(" bob ") = true
 
-3. public static boolean isBlank(String str)
+3.public static boolean isBlank(String str)
    <br/>判断某字符串是否为空或长度为0或由空白符(whitespace) 构成
    <br/>下面是示例：
      <br/>StringUtils.isBlank(null) = true
@@ -50,7 +50,7 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
      <br/>StringUtils.isBlank("bob") = false
      <br/>StringUtils.isBlank(" bob ") = false
 
-4. public static boolean isNotBlank(String str)
+4.public static boolean isNotBlank(String str)
    <br/>判断某字符串是否不为空且长度不为0且不由空白符(whitespace) 构成，等于 !isBlank(String str)
    <br/>下面是示例：
 
@@ -63,7 +63,7 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
       <br/>StringUtils.isNotBlank("bob") = true
       <br/>StringUtils.isNotBlank(" bob ") = true
 
-5. public static String trim(String str)
+5.public static String trim(String str)
    <br/>去掉字符串两端的控制符(control characters, char <= 32) , 如果输入为 null 则返回null
    <br/>下面是示例：
       <br/>StringUtils.trim(null) = null
@@ -75,7 +75,7 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
       <br/>StringUtils.trim("dd     ") = "dd"
       <br/>StringUtils.trim("     dd       ") = "dd"
 
-6. public static String trimToNull(String str)
+6.public static String trimToNull(String str)
    <br/>去掉字符串两端的控制符(control characters, char <= 32) ,如果变为 null 或""，则返回 null
    <br/>下面是示例：
       <br/>StringUtils.trimToNull(null) = null
@@ -87,7 +87,7 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
       <br/>StringUtils.trimToNull("dd     ") = "dd"
       <br/>StringUtils.trimToNull("     dd       ") = "dd"
 
-7. public static String trimToEmpty(String str)
+7.public static String trimToEmpty(String str)
    <br/>去掉字符串两端的控制符(control characters, char <= 32) ,如果变为 null 或 "" ，则返回 ""
    <br/>下面是示例：
       <br/>StringUtils.trimToEmpty(null) = ""
@@ -99,7 +99,7 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
       <br/>StringUtils.trimToEmpty("dd     ") = "dd"
       <br/>StringUtils.trimToEmpty("     dd       ") = "dd"
 
-8. public static String strip(String str)
+8.public static String strip(String str)
    <br/>去掉字符串两端的空白符(whitespace) ，如果输入为 null 则返回 null
    <br/>下面是示例(注意和 trim() 的区别)：
       <br/>StringUtils.strip(null) = null
@@ -111,7 +111,7 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
       <br/>StringUtils.strip("dd     ") = "dd"
       <br/>StringUtils.strip("     dd       ") = "dd"
 
-9. public static String stripToNull(String str)
+9.public static String stripToNull(String str)
    <br/>去掉字符串两端的空白符(whitespace) ，如果变为 null 或""，则返回 null
    <br/>下面是示例(注意和 trimToNull() 的区别)：
       <br/>StringUtils.stripToNull(null) = null
@@ -123,7 +123,7 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
       <br/>StringUtils.stripToNull("dd     ") = "dd"
       <br/>StringUtils.stripToNull("     dd       ") = "dd"
 
-10. public static String stripToEmpty(String str)
+10.public static String stripToEmpty(String str)
     <br/>去掉字符串两端的空白符(whitespace) ，如果变为 null 或"" ，则返回""
     <br/>下面是示例(注意和 trimToEmpty() 的区别)：
      <br/>StringUtils.stripToNull(null) = ""
@@ -136,48 +136,48 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
      <br/>StringUtils.stripToNull("     dd       ") = "dd"
 
 以下方法只介绍其功能，不再举例：
-11. public static String strip(String str, String stripChars)
+11.public static String strip(String str, String stripChars)
    <br/>去掉 str 两端的在 stripChars 中的字符。
    <br/>如果 str 为 null 或等于"" ，则返回它本身；
    <br/>如果 stripChars 为 null 或"" ，则返回 strip(String str) 。
 
-12. public static String stripStart(String str, String stripChars)
+12.public static String stripStart(String str, String stripChars)
    <br/> 和11相似，去掉 str 前端的在 stripChars 中的字符。
 
-13. public static String stripEnd(String str, String stripChars)
+13.public static String stripEnd(String str, String stripChars)
     <br/>和11相似，去掉 str 末端的在 stripChars 中的字符。
 
-14. public static String[] stripAll(String[] strs)
+14.public static String[] stripAll(String[] strs)
     <br/>对字符串数组中的每个字符串进行 strip(String str) ，然后返回。
     <br/>如果 strs 为 null 或 strs 长度为0，则返回 strs 本身
 
-15. public static String[] stripAll(String[] strs, String stripChars)
+15.public static String[] stripAll(String[] strs, String stripChars)
     <br/>对字符串数组中的每个字符串进行 strip(String str, String stripChars) ，然后返回。
     <br/>如果 strs 为 null 或 strs 长度为0，则返回 strs 本身
 
-16. public static boolean equals(String str1, String str2)
+16.public static boolean equals(String str1, String str2)
     <br/>比较两个字符串是否相等，如果两个均为空则也认为相等。
 
-17. public static boolean equalsIgnoreCase(String str1, String str2)
+17.public static boolean equalsIgnoreCase(String str1, String str2)
     <br/>比较两个字符串是否相等，不区分大小写，如果两个均为空则也认为相等。
 
-18. public static int indexOf(String str, char searchChar)
+18.public static int indexOf(String str, char searchChar)
     <br/>返回字符 searchChar 在字符串 str 中第一次出现的位置。
     <br/>如果 searchChar 没有在 str 中出现则返回-1，
     <br/>如果 str 为 null 或 "" ，则也返回-1
 
-19. public static int indexOf(String str, char searchChar, int startPos)
+19.public static int indexOf(String str, char searchChar, int startPos)
     <br/>返回字符 searchChar 从 startPos 开始在字符串 str 中第一次出现的位置。
     <br/>如果从 startPos 开始 searchChar 没有在 str 中出现则返回-1，
     <br/>如果 str 为 null 或 "" ，则也返回-1
 
-20. public static int indexOf(String str, String searchStr)
+20.public static int indexOf(String str, String searchStr)
     <br/>返回字符串 searchStr 在字符串 str 中第一次出现的位置。
     <br/>如果 str 为 null 或 searchStr 为 null 则返回-1，
     <br/>如果 searchStr 为 "" ,且 str 为不为 null ，则返回0，
     <br/>如果 searchStr 不在 str 中，则返回-1
 
-21. public static int ordinalIndexOf(String str, String searchStr, int ordinal)
+21.public static int ordinalIndexOf(String str, String searchStr, int ordinal)
     <br/>返回字符串 searchStr 在字符串 str 中第 ordinal 次出现的位置。
     <br/>如果 str=null 或 searchStr=null 或 ordinal<=0 则返回-1
     <br/>举例(*代表任意字符串)：
@@ -194,7 +194,7 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
       <br/>StringUtils.ordinalIndexOf("aabaabaa", "", 1) = 0
       <br/>StringUtils.ordinalIndexOf("aabaabaa", "", 2) = 0
 
-22. public static int indexOf(String str, String searchStr, int startPos)
+22.public static int indexOf(String str, String searchStr, int startPos)
     返回字符串 searchStr 从 startPos 开始在字符串 str 中第一次出现的位置。
     举例(*代表任意字符串)：
       <br/>StringUtils.indexOf(null, *, *) = -1
@@ -209,16 +209,16 @@ StringUtils 方法的操作对象是 java.lang.String 类型的对象，是 JDK 
       <br/>StringUtils.indexOf("aabaabaa", "", 2) = 2
       <br/>StringUtils.indexOf("abc", "", 9) = 3
 
-23. public static int lastIndexOf(String str, char searchChar)
+23.public static int lastIndexOf(String str, char searchChar)
     基本原理同18
 
-24. public static int lastIndexOf(String str, char searchChar, int startPos)
+24.public static int lastIndexOf(String str, char searchChar, int startPos)
     基本原理同19
 
-25. public static int lastIndexOf(String str, String searchStr)
+25.public static int lastIndexOf(String str, String searchStr)
     基本原理同20
 
-26. public static int lastIndexOf(String str, String searchStr, int startPos)
+26.public static int lastIndexOf(String str, String searchStr, int startPos)
     基本原理同22
 
 另附：

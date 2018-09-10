@@ -9,7 +9,7 @@ tags: [java]
 版权声明：本文为博主原创文章，未经博主允许不得转载。 https://blog.csdn.net/u011229848/article/details/78252080
 
 今天看到一句话，finally 语句块在 try 语句块中的 return 语句之前执行，过了两年突然对这句话感到有些困惑，以为是执行完try之后有finally就会最终再执行finally，没成想“finally 语句块在 try 语句块中的 return 语句之前执行”才是真理。
-
+<!--more-->
 ```java
 package test;
 

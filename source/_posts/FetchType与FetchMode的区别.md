@@ -15,7 +15,7 @@ tags: [java]
 @Fetch(value=FetchMode.SUBSELECT)
 
 两者比较：
-
+<!--more-->
 两者都是设定关联对象的加载策略。前者是JPA标准的通用加载策略注解属性，
 
 后者是Hibernate自有加载策略注解属性。

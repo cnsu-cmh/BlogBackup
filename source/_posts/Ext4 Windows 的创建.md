@@ -6,6 +6,7 @@ tags: [ext]
 [文章来源:Ext4 Windows 的创建](http://blog.csdn.net/u011229848/article/details/53268721)
 
 Extjs4,创建 Ext组件有了新的方式，就是 Ext.create(....)，而且可以使用动态加载 JS的 方式来加快组件的渲染，我们再也不必一次加载已经达到 1MB的 ext-all.js了，本文介绍如 何在 EXTJS4中创建一个 window.
+<!--more-->
 ```javascript
 
 <!DOCTYPE html >  

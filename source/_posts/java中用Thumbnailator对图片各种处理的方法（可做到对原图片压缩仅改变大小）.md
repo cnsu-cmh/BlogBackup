@@ -8,12 +8,14 @@ tags: [java]
 java开发中经常遇到对图片的处理，JDK中也提供了对应的工具类，不过处理起来很麻烦，Thumbnailator是一个优秀的图片处理的开源Java类库,处理效果远比Java API的好，从API提供现有的图像文件和图像对象的类中简化了处理过程，两三行代码就能够从现有图片生成处理后的图片，且允许微调图片的生成方式，同时保持了需要写入的最低限度的代码量。还支持对一个目录的所有图片进行批量处理操作，下边就和大家分享一下java中用Thumbnailator做图片各种处理的方法.
 
 jar自己网上下载一下，maven的话添加依赖即可
+<!--more-->
 ```xml
 <!-- https://mvnrepository.com/artifact/net.coobird/thumbnailator -->
 <dependency>
     <groupId>net.coobird</groupId>
     <artifactId>thumbnailator</artifactId>
     <version>0.4.8</version>
+    
 </dependency>
 ```
  

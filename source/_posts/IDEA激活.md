@@ -7,7 +7,7 @@ tags: [IDEA]
 
 # 在激活[Jetbrains](https://www.jetbrains.com/products.html?fromMenu)旗下任意产品的时候选择激活服务器
 填入以下地址便可成功激活
-
+<!--more-->
 ## http://idea.liyang.io
 ## Support New Version:
 http://idea.uri.ci

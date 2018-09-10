@@ -12,7 +12,7 @@ tags: [ext]
 <br/>// 我们也应该有一个类似于浏览器这样的类，这个类 自己去内部定义一些事件(自定义事件)
 <br/>var Observable = function(){
 <br/>//承装自己所定义的事件类型的
-<br/>this.events = ['start','stop'];
+<br/>this.events = ['start','stop'];<!--more-->
 <br/>//我们应该设计一种数据类型，这种数据类型就可以去维护自定义事件类型 和 和相关绑定函数的关系,结构如下所示：
 <br/>//'start':[fn1 ,fn2....] ,
 <br/>//'stop':[fn1,fn2]

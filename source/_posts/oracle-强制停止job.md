@@ -21,6 +21,7 @@ begin
 DBMS_JOB.BROKEN(27,true); --27为查出的job
 end;
 ```
+<!--more-->
 **3.根据sid查询出session信息**
 ```sql
 select SID,SERIAL/# from V$Session where SID='9';

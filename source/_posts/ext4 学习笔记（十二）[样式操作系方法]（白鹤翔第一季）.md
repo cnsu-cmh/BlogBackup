@@ -15,7 +15,7 @@ tags: [ext]
 <br/>setOpacity：设置不透明度
 <br/>clearOpacity：；清理不透明度设置
 <br/>getColor：返回CSS颜色属性的值，返回值为6位数组的16进制颜色值
-<br/>
+<!--more-->
 <br/>boxWrap：使用box.Markup定义的HTML代码包装元素
 <br/>
 <br/>addClsOnClick添加样式当点击该元素的时候

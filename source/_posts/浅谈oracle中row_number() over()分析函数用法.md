@@ -7,7 +7,7 @@ tags: [oracle]
 
 <br/>row_number()over(partition by col1 order by col2)表示根据col1分组，在分组内部根据col2排序，而此函数计算的值就表示每组内部排序后的顺序编号（组内连续的唯一的）。
 <br/>与rownum的区别在于：使用rownum进行排序的时候是先对结果集加入伪劣rownum然后再进行排序，而此函数在包含排序从句后是先排序再计算行号码。
-<br/>row_number()和rownum差不多，功能更强一点（可以在各个分组内从1开始排序）。
+<br/>row_number()和rownum差不多，功能更强一点（可以在各个分组内从1开始排序）。<!--more-->
 <br/>rank()是跳跃排序，有两个第二名时接下来就是第四名（同样是在各个分组内）
 <br/>dense_rank()也是连续排序，有两个第二名时仍然跟着第三名。相比之下row_number是没有重复值的。
 <br/>oracle 分析函数 row_number(),返回一个整数值(>=1);

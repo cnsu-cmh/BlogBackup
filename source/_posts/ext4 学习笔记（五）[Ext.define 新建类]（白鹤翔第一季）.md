@@ -7,12 +7,11 @@ tags: [null]
 
 
 <br/>说明：
-<br/>
 <br/>（1）本文章是针对于ExtJs 4.X ，文章中出现的5版本只是我引入的文件是ExtJs.5.0,并不是文章是基于5版本，文章是4版本的
 <br/>定义类的方法：define
 <br/>对于Ext4.X版本来说，采用了新定义类的define方法，而不是延续旧版本的extend方法，那么对于定义一个新的类。我们来了解下define的使用。
 <br/>Ext.define(classname,properties,callback)
-<br/>
+<!--more-->
 <br/>classname:要定义的新类的类名，properties：新类的配置对象，callback：回调函数，当类创建完后执行该函数
 <br/>对于Ext定义一个新的类，那么我们可以想象到，既然是利用Ext.define去创建类，那么创建的类一定是Ext所特有的类，不同于传统的javascript创建一个类，也就是说我们要对于define方法的第二个参数properties配置项进行配置，需要找到Ext对于类支持的API并进行配置。
 <br/>configs:

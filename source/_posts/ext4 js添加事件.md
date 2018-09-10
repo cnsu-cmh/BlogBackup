@@ -11,6 +11,7 @@ tags: [ext]
 <br/>element.addEventListener(type,listener,useCapture);
 <br/>element.removeEventListener(type,listener,useCapture);
 <br/>W3C的专家把事件分成了3个阶段，也就是所谓的事件流：（1）捕获 （2）目标 （3）冒泡。
+<!--more-->
 ```javascript
 // 1: 在早些时候,是不存在事件这个概念的,开发者用javascript2个函数去模拟事件的机制(window.setTimeout/window.setInterval)
 // 2: 由于很多原因 比如效率太低, 人们开始发明了 最原始的 0级dom事件模型 为元素添加一个事件  在事件上绑定一个处理函数  
