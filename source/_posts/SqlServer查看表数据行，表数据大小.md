@@ -19,7 +19,9 @@ create table tableUsedInfo(
   index_size varchar(100),
   unused_size varchar(100)
 );
-
+```
+<!--more-->
+```sql
 --查询表数据使用情况，插入到零时表
 declare @name varchar(100)
 declare cur cursor for
