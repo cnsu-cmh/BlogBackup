@@ -1,9 +1,9 @@
-# Hexo Configuration
+ Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: cusn-cmh
+title: cnsu-cmh
 subtitle: 不要总是盯着花开的美丽，要往下看，看它的土壤在哪里。
 description: 忻州师范学院11级，目前就职于昆明新奇星科技公司研发部。主要从事javaEE编码工作。一位骑行、摄影、健身爱好者。 
 keywords: 开发者,程序猿,编程,代码,开源,IT民工,醉美猴王
@@ -12,7 +12,7 @@ author: cusn-cmh
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://cusn-cmh.github.io/
+url: https://cnsu-cmh.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -78,7 +78,7 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/cusn-cmh/cusn-cmh.github.io.git
+  repository: https://github.com/cnsu-cmh/cnsu-cmh.github.io.git
   branch: master
 
 sitemap:
